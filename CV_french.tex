@@ -1,0 +1,207 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage{amsmath}
+%multicolonne
+\usepackage{multicol}
+
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\setlength{\hintscolumnwidth}{2.6cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+% personal data
+\name{Camille}{BESOMBES}
+\title{Assistant de recherche}                               % optional, remove / comment the line if not wanted
+\address{1265 rue Ontario E}{H2L 1R7}{Montréal, Quebec, Canada}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+14388097220}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+
+%\phone[fax]{+3~(456)~789~012}
+\email{camillebesombespro@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{Besombes Camille}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Professionnel}
+\cventry{Juillet 2022 -- Maintenant}{Assistant de recherche}{McGill University - Département de recherche en dentisterie.}{Montréal, Quebec, Canada}{ }{
+    Developement d'un algorithme de detection de cancer a partir de photo. 
+    \begin{itemize}
+        \item Dévelopement de solution SOTA en python pour la vision par ordinateur.
+        \item Quantification d'incertitude et explicabilité des prédiction.
+        \item Communication des résultats.
+        \item Maintenance de code avec git.
+    \end{itemize}
+}
+\cventry{Septembre 2018 -- Décembre 2021}{Doctorat en deep learning appliqué à la physique}{CERFACS, TotalEnergies}{Toulouse, France}{}{
+    \begin{itemize}
+        \item Conception et entrainement d'un réseau générateur d'image de réservoir souterrain et champs atmosphériques.
+        \item Couplage du GAN avec un code d'assimilation de données.
+        \item Application d'un GAN à la génération de champs atmosphériques : Publication dans le journal Non-linear Processes in geosciences (NPG) : Producing realistic climate data with generative adversarial networks. (doi : 10.5194/npg-28-347-2021)
+        \item Utilisation de la suite de package de science de données : Tensorflow/Keras, pandas, scikit-learn\dots
+        \item Communication avec une audience scientifique et industrielles.
+        \item Compréhension et implémentation de la littérature scientifique en science des données : U-nets, Resnets, generative networks, LSTMs, attention-based models\dots
+        \item Interaction avec TotalEnergies pour la définition de métriques d'intérêts, visualisation de données\dots
+    \end{itemize}
+}
+\cventry{Avril 2018 -- Septembre 2018}{Stage de recherche en deep learning appliqué aux géosciences}{CERFACS, TotalEnergies}{Toulouse, France}{}{
+\begin{itemize}
+    \item Études de littérature scientifique en science des données.
+    \item Compréhension des problématiques industrielles (TotalEnergies).
+    \item Formation en science de données (cours, challenges, littérature scientifiques).
+    \item Formation environnement informatique : Unix, Git, python, supercalculateur, notebook, cloud computing\dots 
+\end{itemize}
+}
+\cventry{Juin 2017 -- Août 2017}{Stage de recherche sur l'interaction fluide-structure.}{Queen's University}{Belfast, Royaume-Unis}{}{
+    \begin{itemize}
+        \item Environnement de travail anglophone.
+        \item Couplage de code scientifique.
+    \end{itemize}
+            }
+
+\cventry{Juin 2016 -- Juillet 2016}{Stage en développement web}{Happy people 31}{Toulouse, France}{Création et maintient d’un site web}{
+\begin{itemize}%
+    \item Travail en petite équipe.
+    \item Coopération avec des designers et des ingénieurs en base données. 
+    \item  Apprentissage en autonomie des langages de programmation : HTML, CSS, PHP and MySQL.
+    %\item Autonomie lors de l'apprentissage et de la gestion des difficultés rencontrées permettant un nombre limité d'intervention des encadrants.
+    \item Création de taches automatisées en PHP.
+\end{itemize}
+}
+
+\section{Éducation}
+\cventry{2015--2018}{Mécanique des fluides}{École d'ingénieur : INPT-ENSEEIHT}{Toulouse, France}{}{Spécialisation simulation et modélisation numériques.}
+\cventry{2013--2015}{Classes Préparatoires aux Grandes Écoles}{Lycée Camille Jullian}{Bordeaux, France}{Spécialisation physique et chimie}{}
+\cventry{2012--2013}{Baccalauréat scientifique}{Lycée Anatole de Monzie}{Bazas, France}{}{}
+
+\section{Compétences}
+\cvitem{\textbf{Professional :}}{Habitué du travail en équipe, apprentissage en autonomie, communication à des audiences avec divers niveaux de compréhension.}
+\cvitem{\textbf{Theoretical :}}{Connaissance statistique et mathématique, littérature scientifiques en science des données.}
+\cvitem{\textbf{Informatic :}}{Logiciels : Office pack, LateX, web, Unix, git, MySQL, python with data science packages\dots}
+\cvitem{\textbf{Linguistic :}}{Français, anglais.}
+
+\section{Passion}
+\centering
+$\ \bullet \ \ $Sport$\ \bullet \ $ Technologies $\ \bullet \ $ Voyage $\ \bullet \ $ Stand-up comédie$\ \bullet \ $ Musique $\ \bullet \ $ Programmation
+ 
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+
+
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+
+
+%\cvitem{Compétence}{Autonome, curieux}
+%\cvitem{}{}
+%\cvdoubleitem{}{}{}{}
+%\begin{multicols}{2}
+%\section{Languages}
+
+%\cvitemwithcomment{English}{Fluent, TOEIC : 790}{}
+%\cvitemwithcomment{Spanish}{Intermediate}{}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+%\columnbreak
+%\section{Interests}
+%\cvitem{Sport : }{Volley, handball, soccer}
+%\cvitem{Data science}{}
+%\end{multicols}
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+%
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+%  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+%\end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+%\date{January 25, 2017}
+%\opening{Dear Sir or Madam,}
+%\closing{Yours faithfully,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+%
+%I am a second-year student in engineering school at INP-ENSEEIHT in fluid mechanics and am writing for a 2 or 3 month summer internship in a research and development laboratory. I learned about your laboratory through the department international relations of my school. I am keen on scientific research since the start of my studies and discover and work in a research field would allow me to confirm the choice of a thesis/PhD next year.  
+%I enclos my CV for your information
+%
+%I am an autonomous student for example the past year I made a internship in web development which is not my field of study, I had to learn 4 programming languages on my own. I also worked in a small team where different part of the website was created at the same time so it was important to have good communication skills. Moreover I am curious and a motivated student I like to attend scientific conferences and complete my courses with personal research. I am specifically interested in computational fluid dynamic and aerodynamic if there is some opportunities in that field even if I stay open-minded to other fields.
+%I am able to take the responsibility of this position in June
+%
+%Thank you for taking time to consider this application and I look forward to hearing from you in the near futur. 
+%
+%Sincerely, 
+%  
+%
+%\makeletterclosing
+%
+%%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
