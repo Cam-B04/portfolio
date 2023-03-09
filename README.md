@@ -2,9 +2,13 @@
 
 ## Presentation
 
-Welcome to my portfolio which is a work in progress. I have recently graduated a PhD degree in deep learning applied to physics. I started to build a portfolio with mainly side projects because of the NDA restriction on my PhD. 
+Welcome to my portfolio which is a work in progress. I am currently working as a Research assistant at McGill University in the dentistry department. My team and I, are developing 
+a computer vision algorithm to detect oral cancer from photographic images. We are also interested in quantifying uncertainties from deep learning predictions which is an important topic in health data science to be able to put AI solution in productions. I have a PhD degree in deep learning applied to physics. I started to build a portfolio with mainly side projects because of the NDA restriction on my PhD. 
 
-I am currently looking for a data scientist job opportunity in Montreal or in remote. Feel free to contact me if you are interested 
+I am currently looking open to job offers to work in deep learning development and closer to operational deep learning. Please see my CV attached:
+
+![Besombes Camille's CV - page 1/2](/CV_english-O.png "Besombes Camille's CV - page 1/2")
+![Besombes Camille's CV - page 2/2](/CV_english-1.png "Besombes Camille's CV - page 2/2")
 
 ## My work
 
