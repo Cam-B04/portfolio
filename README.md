@@ -7,9 +7,9 @@ a computer vision algorithm to detect oral cancer from photographic images. We a
 
 I am currently looking open to job offers to work in deep learning development and closer to operational deep learning. Please see my CV attached:
 
-![Besombes Camille's CV - page 1/2](./CV_english-0.png "Besombes Camille's CV - page 1/2")
+<div style="text-align:center"><img src="https://github.com/Cam-B04/portfolio/blob/master/CV_english-0.png" /></div>
 
-![Besombes Camille's CV - page 2/2](CV_english-1.png "Besombes Camille's CV - page 2/2")
+<div style="text-align:center"><img src="https://github.com/Cam-B04/portfolio/blob/master/CV_english-1.png" /></div>
 
 ## My work
 
