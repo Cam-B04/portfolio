@@ -2,14 +2,16 @@
 
 ## Presentation
 
-Welcome to my portfolio which is a work in progress. I am currently working as a Research assistant at McGill University in the dentistry department. My team and I, are developing 
-a computer vision algorithm to detect oral cancer from photographic images. We are also interested in quantifying uncertainties from deep learning predictions which is an important topic in health data science to be able to put AI solution into productions. I have a PhD degree in deep learning applied to physics. I started to build a portfolio with mainly side projects because of the NDA restriction on my PhD. 
+Welcome to my portfolio. I am currently working as a Research assistant at McGill University in the dentistry department. My team and I, are developing 
+a computer vision algorithm to detect oral cancer from photographic images. We are also interested in quantifying uncertainties from deep learning predictions which is an important topic in health data science to be able to put AI solution into production. I have a PhD degree in deep learning applied to physics. 
 
-I am currently looking open to job offers to work in deep learning development and closer to operational deep learning. Please see my CV attached:
+Main topics: Computer vision, Uncertainty quantification, Generative AI.
 
-<div style="text-align:center"><img src="https://github.com/Cam-B04/portfolio/blob/master/CV_english-0.png" /></div>
+I am currently open to job offers to work in deep learning development and implement operational deep learning solution in an industrial setting. Please see my CV attached:
 
-<div style="text-align:center"><img src="https://github.com/Cam-B04/portfolio/blob/master/CV_english-1.png" /></div>
+<div style="text-align:center"><p align="center"><img src="https://github.com/Cam-B04/portfolio/blob/master/CV_english-0.png" alt="Camille Besombes' CV page 1/2"/></p></div>
+
+<div style="text-align:center"><img src="https://github.com/Cam-B04/portfolio/blob/master/CV_english-1.png" alt="Camille Besombes' CV page 2/2"/></div>
 
 ## My work
 
