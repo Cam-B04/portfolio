@@ -9,7 +9,7 @@ Main topics: Computer vision, Uncertainty quantification, Generative AI.
 
 I am currently open to job offers to work in deep learning development and implement operational deep learning solution in an industrial setting. Please see my CV attached:
 
-<div style="text-align:center"><p align="center"><img src="https://github.com/Cam-B04/portfolio/blob/master/CV_english-0.jpg" alt="Camille Besombes' CV page 1/2"
+<div style="text-align:center"><p align="center"><img src="https://github.com/Cam-B04/portfolio/blob/master/CV_english-0.jpg?raw=true" alt="Camille Besombes' CV page 1/2"
 width="800"/></p></div>
 
 <div style="text-align:center"><p align="center"><img src="https://github.com/Cam-B04/portfolio/blob/master/CV_english-1.jpg" alt="Camille Besombes' CV page 2/2"
