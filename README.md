@@ -3,9 +3,11 @@
 ## Presentation
 
 Welcome to my portfolio. I am currently working as a Research assistant at McGill University in the dentistry department. My team and I, are developing 
-a computer vision algorithm to detect oral cancer from photographic images. We are also interested in quantifying uncertainties from deep learning predictions which is an important topic in health data science to be able to put AI solution into production. I have a PhD degree in deep learning applied to physics. 
+a computer vision algorithm to detect oral cancer from photographic images. We are also interested in quantifying uncertainties from deep learning predictions which is an important topic in health data science to be able to put AI solution into production. This work led to an accepted paper at [ICLR - Tiny Paper 2023](https://openreview.net/forum?id=XXsjViheWZ&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2023%2FTinyPapers%2FAuthors%23your-submissions)). Unfortunately I am not allowed to show the remaining of our work due to non-disclosure agreement.
 
-Main topics: Computer vision, Uncertainty quantification, Generative AI.
+I have a PhD degree in deep learning applied to physics. 
+
+Main topics: Computer vision, Uncertainty quantification, Generative AI, Data visualization, data processing.
 
 I am currently open to job offers to work in deep learning development and implement operational deep learning solution in an industrial setting. Please see my CV attached:
 
